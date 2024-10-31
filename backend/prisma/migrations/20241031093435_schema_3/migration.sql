@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Recipe" ALTER COLUMN "ingredients" SET NOT NULL,
+ALTER COLUMN "ingredients" SET DATA TYPE TEXT,
+ALTER COLUMN "quantities" SET NOT NULL,
+ALTER COLUMN "quantities" SET DATA TYPE TEXT;
